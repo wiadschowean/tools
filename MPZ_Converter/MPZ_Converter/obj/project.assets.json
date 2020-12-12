@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Baseclass.Contrib.Nuget.Output/2.4.1": {
+        "type": "package",
+        "build": {
+          "build/net40/Baseclass.Contrib.Nuget.Output.targets": {}
+        }
+      },
+      "Math.Gmp.Native.NET/2.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Baseclass.Contrib.Nuget.Output": "2.4.1"
+        },
+        "compile": {
+          "lib/net40/Math.Gmp.Native.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Math.Gmp.Native.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Baseclass.Contrib.Nuget.Output/2.4.1": {
+      "sha512": "2Tbq0rOQnfnZkHPDP4jCR0j70ZAh2sESV3tHIekmS6pyGXaNsfh8kKwna52UhPLMJyMnZQv3YhBaJNkDTdbMqw==",
+      "type": "package",
+      "path": "baseclass.contrib.nuget.output/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "baseclass.contrib.nuget.output.2.4.1.nupkg.sha512",
+        "baseclass.contrib.nuget.output.nuspec",
+        "build/net40/Baseclass.Contrib.Nuget.Output.Build.dll",
+        "build/net40/Baseclass.Contrib.Nuget.Output.targets"
+      ]
+    },
+    "Math.Gmp.Native.NET/2.0.6": {
+      "sha512": "cPwnwRvazPx3q1XI7IKETVNNaYfCDS/Lo9+0bIU2QjjHsEE0FO1BMDfhhNd+4lxtUySjYkFG/Mv4CP7DIMIO+g==",
+      "type": "package",
+      "path": "math.gmp.native.net/2.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Math.Gmp.Native.dll",
+        "lib/net40/Math.Gmp.Native.pdb",
+        "lib/net40/Math.Gmp.Native.xml",
+        "math.gmp.native.net.2.0.6.nupkg.sha512",
+        "math.gmp.native.net.nuspec",
+        "output/x64/GMP_COPYING",
+        "output/x64/GMP_README",
+        "output/x64/libgmp-10.dll",
+        "output/x86/GMP_COPYING",
+        "output/x86/GMP_README",
+        "output/x86/libgmp-10.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Math.Gmp.Native.NET >= 2.0.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\David Pinterics\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\David Pinterics\\source\\repos\\MPZ_Converter\\MPZ_Converter\\MPZ_Converter.csproj",
+      "projectName": "MPZ_Converter",
+      "projectPath": "C:\\Users\\David Pinterics\\source\\repos\\MPZ_Converter\\MPZ_Converter\\MPZ_Converter.csproj",
+      "packagesPath": "C:\\Users\\David Pinterics\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\David Pinterics\\source\\repos\\MPZ_Converter\\MPZ_Converter\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\David Pinterics\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "Math.Gmp.Native.NET": {
+            "target": "Package",
+            "version": "[2.0.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Das Paket \"Baseclass.Contrib.Nuget.Output 2.4.1\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v3.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "libraryId": "Baseclass.Contrib.Nuget.Output",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Das Paket \"Math.Gmp.Native.NET 2.0.6\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v3.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "libraryId": "Math.Gmp.Native.NET",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}

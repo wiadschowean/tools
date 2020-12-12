@@ -1,0 +1,4 @@
+C:\Users\David Pinterics\source\repos\MPZ_Converter\MPZ_Converter\bin\Debug\netcoreapp3.0\MPZ_Converter.exe
+C:\Users\David Pinterics\source\repos\MPZ_Converter\MPZ_Converter\obj\Debug\netcoreapp3.0\MPZ_Converter.csprojAssemblyReference.cache
+C:\Users\David Pinterics\source\repos\MPZ_Converter\MPZ_Converter\obj\Debug\netcoreapp3.0\MPZ_Converter.AssemblyInfoInputs.cache
+C:\Users\David Pinterics\source\repos\MPZ_Converter\MPZ_Converter\obj\Debug\netcoreapp3.0\MPZ_Converter.AssemblyInfo.cs
